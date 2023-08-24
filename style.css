@@ -1,19 +1,54 @@
-
-
-.header-section{
-    height:96vh;
+.header-section {
+    height: 100vh;
+    background-image: url("https://media.istockphoto.com/id/512147716/photo/petrochemical-plant-at-dusk.jpg?s=612x612&w=0&k=20&c=E5-wWET7eGRGIYfC2_aOcLK05Ch_jztlvT2CYGh_JL4=");
+    background-size: cover;
     width: 100%;
-    background-image: url("https://images.unsplash.com/photo-1516937941344-00b4e0337589?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
-    background-size:cover;
+    padding-bottom: 20px;
+
 }
-h1{
-color:white;
+
+h1,
+h3,
+h2 {
+    color: white;
 }
-.login_page{
-    width: 60%;
-    gap:5px;
-   
+
+.mess {
+    height: 100px;
+    width: 305px;
 }
-.mess{
-    height:4rem;
+
+.input_text {
+    width: 305px;
+}
+
+.place_h {
+    width: 150px;
+}
+
+.input {
+    padding: 3px;
+}
+
+button {
+    color: white;
+    width: 305px;
+    padding: 5px;
+    background-color: blue;
+    font-size: 25px;
+
+}
+
+:hover>button {
+    background-color: red;
+}
+
+.nav_heading {
+    color: black;
+}
+
+.service-section {
+    background-color: darkslateblue;
+    color: white;
+
 }
