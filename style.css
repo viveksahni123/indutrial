@@ -17,6 +17,7 @@ h2 {
 .mess {
     height: 100px;
     width: 305px;
+    outline: none;
 }
 
 .input_text {
@@ -54,6 +55,12 @@ button {
     background-color: darkslateblue;
     color: white;
 
+}
+.place_h{
+    outline: none;
+}
+.input_text{
+    outline: none;
 }
 
 
