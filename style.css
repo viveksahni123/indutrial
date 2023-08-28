@@ -1,10 +1,11 @@
 .header-section {
     height: 100vh;
-    background-image: url("https://media.istockphoto.com/id/512147716/photo/petrochemical-plant-at-dusk.jpg?s=612x612&w=0&k=20&c=E5-wWET7eGRGIYfC2_aOcLK05Ch_jztlvT2CYGh_JL4=");
+    background-image: url("https://images.unsplash.com/photo-1590496794008-383c8070b257?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1991&q=80");
     background-size: cover;
+    background-color: rgba(9, 5, 5, 0.2);
     width: 100%;
     padding-bottom: 20px;
-
+   
 }
 
 h1,
@@ -20,6 +21,7 @@ h2 {
 
 .input_text {
     width: 305px;
+    
 }
 
 .place_h {
@@ -31,6 +33,7 @@ h2 {
 }
 
 button {
+    border-radius: 10px;
     color: white;
     width: 305px;
     padding: 5px;
@@ -40,15 +43,22 @@ button {
 }
 
 :hover>button {
-    background-color: red;
+    background-color: rgb(204, 63, 63);
 }
 
 .nav_heading {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .service-section {
     background-color: darkslateblue;
     color: white;
 
+}
+
+
+
+.contaoiner_login {
+    width: 60%;
+    background-color:rgb(255, 161, 126);
 }
